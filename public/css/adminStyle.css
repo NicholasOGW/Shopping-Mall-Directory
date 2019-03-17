@@ -1,0 +1,67 @@
+body, html{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+th{
+    background-color: #ff491b;
+    padding: 12px 15px;
+    color:white;
+}
+
+.banner{
+    background-image: linear-gradient(-80deg,#fc4a1a, #f7b733);
+    color: white;
+    padding: 15px;
+}
+
+.filters{
+    background-color: #f44336;
+    color: white;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 12px;
+    width: 100%;
+    font-size: 22px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    padding: 12px 15px;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #f2f2f2;
+}
+
+.table-text{
+    text-align: center;
+    font-size: 20px;
+}
+
+.control-label{
+    padding: 14px;
+}
+
+.btn-primary{
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border:none;
+}
+
+#btnAdd{
+    justify-content: center;
+
+}
+
